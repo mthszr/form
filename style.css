@@ -1,0 +1,88 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #172b4d; /* Dark blue background */
+  color: #ffffff; /* White text color */
+}
+
+#main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#form-container {
+  width: 400px;
+  padding: 40px;
+  background-color: #30475e; /* Slightly lighter blue background */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); /* White shadow */
+}
+
+#survey-form {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff; /* White title */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 10px; /* Increased space between label and input */
+  display: block;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='number'],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ffffff; /* White border */
+  background-color: #30475e; /* Slightly lighter blue background */
+  color: #ffffff; /* White text color */
+}
+
+select {
+  appearance: none;
+}
+
+.radio-group,
+.checkbox-group {
+  margin-top: 5px; /* Add some space between options */
+}
+
+.radio-group label,
+.checkbox-group label {
+  display: inline-block; /* Display labels inline */
+  margin-right: 10px; /* Add some space between radio buttons/checkboxes and labels */
+}
+
+.radio-group input[type='radio'],
+.checkbox-group input[type='checkbox'] {
+  margin-right: 5px;
+}
+
+#submit {
+  background-color: #007bff; /* Blue button */
+  color: #ffffff; /* White text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
