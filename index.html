@@ -14,27 +14,18 @@
         <p id="description">Thank you for taking the time to help us!</p>
         <div class="form-group">
           <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
         </div>
         <div class="form-group">
           <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
         </div>
         <div class="form-group">
           <label for="age">Age:</label>
-          <input type="number" id="age" name="age" min="13" max="120" required>
+          <input type="number" id="age" name="age" min="13" max="120" placeholder="Age" required>
         </div>
         <div class="form-group">
-          <label for="role">Which option best describes your current role?</label>
-          <select id="role" name="role" required>
-            <option disabled selected value="">Select your role</option>
-            <option value="student">Student</option>
-            <option value="job">Full-time job</option>
-            <option value="notsay">Prefer not to say</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label>Would you recommend our website to a friend?</label>
+          <label>Would you recommend our service to a friend?</label>
           <div class="radio-group">
             <input type="radio" name="recommend" id="definitely" value="definitely" required>
             <label for="definitely">Definitely</label>
@@ -42,23 +33,44 @@
             <input type="radio" name="recommend" id="maybe" value="maybe" required>
             <label for="maybe">Maybe</label>
             <br>
-            <input type="radio" name="recommend" id="no" value="no" required>
-            <label for="no">No</label>
+            <input type="radio" name="recommend" id="notsure" value="notsure" required>
+            <label for="notsure">Not sure</label>
           </div>
+          <br>
+        <div class="form-group">
+          <label for="role">Wich of these is your favorite?</label>
+          <select id="role" name="role" required>
+            <option disabled selected value="">Select an option</option>
+            <option value="challenges">Challenges</option>
+            <option value="projects">Projects</option>
+            <option value="comunnity">Community</option>
+            <option value="opensource">Open Source</option>
+          </select>
         </div>
+        </div>
+        <br>
         <div class="form-group">
           <label>Which technologies are you interested in?</label>
           <div class="checkbox-group">
-            <input type="checkbox" name="interest" id="front-end" value="front-end">
-            <label for="front-end">Front-End</label>
+            <input type="checkbox" name="interest" id="c" value="c">
+            <label for="c">C/C++</label>
             <br>
-            <input type="checkbox" name="interest" id="back-end" value="back-end">
-            <label for="back-end">Back-End</label>
+            <input type="checkbox" name="interest" id="python" value="python">
+            <label for="python">Python</label>
+            <br>
+            <input type="checkbox" name="interest" id="java" value="java">
+            <label for="java">Java</label>
+            <br>
+            <input type="checkbox" name="interest" id="ruby" value="ruby">
+            <label for="ruby">Ruby</label>
+            <br>
+            <input type="checkbox" name="interest" id="javascript" value="javascript">
+            <label for="Javascript">Javascript</label>
           </div>
         </div>
         <div class="form-group">
           <label for="comments">Any comments or suggestions?</label>
-          <textarea id="comments" name="comments" rows="4"></textarea>
+          <textarea id="comments" name="comments" rows="4" placeholder="Enter your comment here..."></textarea>
         </div>
         <div class="form-group">
           <button type="submit" id="submit">Submit</button>
