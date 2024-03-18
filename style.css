@@ -1,8 +1,8 @@
 body {
-  font-family: Helvetica, sans-serif;
+  font-family: 'Poppins';
   margin: 0;
   padding: 0;
-  background-color: #032539; 
+  background-color: #074468; 
   color: #1c768f; 
 }
 
@@ -17,7 +17,7 @@ body {
   width: 70%;
   padding: 30px;
   margin: 20px 5px;
-  background-color: #fbf3f2; /* Slightly lighter blue background */
+  background-color: #fbf3f2;
   border-radius: 10px;
   box-shadow: 0 0 10px 2px #1c768f;
 }
@@ -28,8 +28,8 @@ body {
 
 h1, p {
   text-align: center;
-  margin: 0 0 10px 0;
-  color: #032539; /* White title */
+  margin: 20px 0;
+  color: #032539;
 }
 
 .form-group {
@@ -38,8 +38,9 @@ h1, p {
 
 label {
   font-weight: bold;
-  margin-bottom: 10px; /* Increased space between label and input */
+  margin-bottom: 10px;
   display: block;
+  color: #032539;
 }
 
 input[type='text'],
@@ -50,24 +51,22 @@ textarea {
   width: 100%;
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid #1c768f; /* White border */
-  background-color: #fbf3f6; /* Slightly lighter blue background */
-  color: #1c768f; /* White text color */
-}
-
-select {
-  appearance: none;
+  border: 1px solid #1c768f;
+  background-color: #fbf3f6;
+  color: #1c768f;
+  font-family: 'Poppins';
 }
 
 .radio-group,
 .checkbox-group {
-  margin-top: 5px; /* Add some space between options */
+  margin-top: 5px; 
 }
 
 .radio-group label,
 .checkbox-group label {
-  display: inline-block; /* Display labels inline */
-  margin-right: 10px; /* Add some space between radio buttons/checkboxes and labels */
+  display: inline-block; 
+  margin-right: 10px;
+  color: #1c768f;
 }
 
 .radio-group input[type='radio'],
@@ -76,8 +75,8 @@ select {
 }
 
 #submit {
-  background-color: #fa991c; /* Blue button */
-  color: #fbf3f6; /* White text color */
+  background-color: #074468; 
+  color: #fbf3f6; 
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -85,5 +84,5 @@ select {
 }
 
 #submit:hover {
-  background-color: #c06f05; /* Darker blue on hover */
+  background-color: #032539;
 }
