@@ -1,34 +1,35 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: Helvetica, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #172b4d; /* Dark blue background */
-  color: #ffffff; /* White text color */
+  background-color: #032539; 
+  color: #1c768f; 
 }
 
 #main-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 80%;
 }
 
 #form-container {
-  width: 400px;
-  padding: 40px;
-  background-color: #30475e; /* Slightly lighter blue background */
+  width: 70%;
+  padding: 30px;
+  margin: 20px 5px;
+  background-color: #fbf3f2; /* Slightly lighter blue background */
   border-radius: 10px;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); /* White shadow */
+  box-shadow: 0 0 10px 2px #1c768f;
 }
 
 #survey-form {
   width: 100%;
 }
 
-h1 {
+h1, p {
   text-align: center;
-  margin-bottom: 20px;
-  color: #ffffff; /* White title */
+  margin: 0 0 10px 0;
+  color: #032539; /* White title */
 }
 
 .form-group {
@@ -49,9 +50,9 @@ textarea {
   width: 100%;
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid #ffffff; /* White border */
-  background-color: #30475e; /* Slightly lighter blue background */
-  color: #ffffff; /* White text color */
+  border: 1px solid #1c768f; /* White border */
+  background-color: #fbf3f6; /* Slightly lighter blue background */
+  color: #1c768f; /* White text color */
 }
 
 select {
@@ -75,8 +76,8 @@ select {
 }
 
 #submit {
-  background-color: #007bff; /* Blue button */
-  color: #ffffff; /* White text color */
+  background-color: #fa991c; /* Blue button */
+  color: #fbf3f6; /* White text color */
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -84,5 +85,5 @@ select {
 }
 
 #submit:hover {
-  background-color: #0056b3; /* Darker blue on hover */
+  background-color: #c06f05; /* Darker blue on hover */
 }
