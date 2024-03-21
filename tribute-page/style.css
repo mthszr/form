@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+}
+
+/*.main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container{
+    
+    width: 33%;
+    
+    border: 2px solid black;
+}
+
+.container h1{
+    text-align: center;
+}*/
+
+.opening img{
+    transform: scale(1);
+   
+    
+}
+
+.opening{
+    background-color: rgb(204, 196, 120);
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    
+    
+
+}
