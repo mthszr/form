@@ -6,77 +6,48 @@
     box-sizing: border-box;
     border: 0;
     margin: 0;
+    flex: 1;
 }
 
-.opening{
-    background-color: #000000;
-    height: 450px;
-    width: 100%;
+main{
     display: flex;
-    justify-content: center;
-    
-}
-
-.text-container{
-    position: absolute;
-    display: flex;
-    width: 350px;
-    height: 100px;
-    right: 66%;
-    top: 15%;
     flex-direction: column;
-    justify-content: center;
-    color: #d3cdcd;  
-    text-align: start;
+    height: 100vh;
+    width: 100%;
 }
 
-.text-container h1{   
-    font-size: 55px;
-    font-style: italic;
-    text-transform: uppercase;
-    font-family: 'Cormorant', 'Poppins';
-}
-
-.text-container p{ 
-    font-size: 13px;    
-}
-
-.button-container{
-    position: absolute;
+.top-half{
     display: flex;
-    width: 160px;
-    height: 40px;
-    right: 82.5%;
-    top: 32%;
     flex-direction: row;
-    justify-content: space-around;
-    color: #a7a5a5;
+    background-color: #000000;
+    color: white;
 }
 
-.button-container p{
-    border: 1px solid #afafaf;
-    padding: 14px 12px;
-    font-size: 9px;
-    box-shadow: -1px 2px#a7a5a5;
+#image{
+    display: block;
+    filter: grayscale(100%); 
+    transform: scale(0.75);
+    max-width: 100%;
+    margin: auto;
 }
 
-.quote-container{
-    position: absolute;
-    width: 330px;
-    height: 309px;
-    padding-right: 10px;
-    right: 3%;
-    top: 12%;
-    color: rgb(172, 170, 170);
-    text-align: end;
-    font-size: 37px;
-    font-family: 'Cormoran', 'Poppins';
-    /*border: 2px solid #a7a5a5;*/
-    border-right: 2px solid;
+#caption{
+   text-align: center; 
+   font-family: "Cormorant";
+   padding-bottom: 9%;
+   font-size: 17px;
+   font-style: italic;
 }
 
-.opening img{
-    transform: scale(0.7);
-    filter: grayscale(100%);
+#quote p{
+    text-align: right;
+    font-size: 30px;
+    font-family: "Esteban";
+    padding-top: 45%;
+    padding-right: 30%;
+    border-right: 1px solid gray;
 }
 
+.bottom-half{
+    background-color: gray;
+}
