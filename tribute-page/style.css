@@ -99,6 +99,8 @@ main{
 
 .content{
     margin: 4% auto;
+    font-weight: 400;
+    font-size: 17px;
 }
 
 #eras-banner{
