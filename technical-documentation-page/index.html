@@ -18,7 +18,7 @@
             <li><a class="nav-link" href="#variables">Variables</a></li>
             <li><a class="nav-link" href="#declaring_variables">Declaring Variables</a></li>
             <li><a class="nav-link" href="#variable_scope">Variable Scope</a></li>
-            <li><a class="nav-link" href="#global_variable">Global Variable</a></li>
+            <li><a class="nav-link" href="#global_variables">Global Variables</a></li>
             <li><a class="nav-link" href="#constants">Constants</a></li>
             <li><a class="nav-link" href="#data_types">Data Types</a></li>
             <li><a class="nav-link" href="#if_else_statement">If...Else Statement</a></li>
@@ -281,19 +281,20 @@
         </section>
 
         <section class="main-section" id="if_else_statement">
-            <header>if...else statement</header>
+            <header>If...Else Statement</header>
 
             <p>
                 Use the if statement to execute a statement if a logical condition is true. Use the optional else clause to execute a statement if the condition is false. An if statement looks as follows:
             </p>
 
             <pre>
+                <hr>
                 <code>
-                    if (condition) { 
-                        statement_1; 
-                    } else { 
-                        statement_2; 
-                    }
+    <span class="pink">if</span> <span class="darkYellow">(</span><span class="blue">condition</span><span class="darkYellow">)</span> <span class="darkYellow">{</span>
+        <span class="blue">statement_1</span>;
+    <span class="darkYellow">} <span class="pink">else</span> {</span>
+        <span class="blue">statement_2</span>;
+    <span class="darkYellow">}</span>
                 </code>
             </pre>
 
@@ -306,16 +307,17 @@
             </p>
 
             <pre>
+                <hr>
                 <code>
-                    if (condition_1) { 
-                        statement_1; 
-                    } else if (condition_2) {
-                        statement_2; 
-                    } else if (condition_n) { 
-                        statement_n; 
-                    } else {
-                        statement_last; 
-                    }
+    <span class="pink">if</span> <span class="darkYellow">(</span><span class="blue">condition</span><span class="darkYellow">)</span> <span class="darkYellow">{</span>
+        <span class="blue">statement_1</span>;
+    <span class="darkYellow">} <span class="pink">else if</span> <span class="darkYellow">(<span class="blue">condition_2</span>)</span> {</span>
+        <span class="blue">statement_2</span>;
+    <span class="darkYellow">} <span class="pink">else if</span> <span class="darkYellow">(<span class="blue">condition_n</span>)</span> {</span>
+        <span class="blue">statement_n</span>;
+    <span class="darkYellow">} <span class="pink">else</span> {</span>
+        <span class="blue">statement_last</span>;
+    <span class="darkYellow">}</span>
                 </code>
             </pre>
 
@@ -324,14 +326,15 @@
             </p>
 
             <pre>
+                <hr>
                 <code>
-                    if (condition) { 
-                        statement_1_runs_if_condition_is_true;
-                        statement_2_runs_if_condition_is_true; 
-                    } else {
-                        statement_3_runs_if_condition_is_false;
-                        statement_4_runs_if_condition_is_false; 
-                    }
+    <span class="pink">if</span> <span class="darkYellow">(</span><span class="blue">condition</span><span class="darkYellow">)</span> <span class="darkYellow">{</span>
+        <span class="blue">statement_1_runs_if_condition_is_true;</span>;
+        <span class="blue">statement_2_runs_if_condition_is_true;</span>
+    <span class="darkYellow">} <span class="pink">else</span> {</span>
+        <span class="blue">statement_3_runs_if_condition_is_false;</span>;
+        <span class="blue">statement_4_runs_if_condition_is_false;</span>
+    <span class="darkYellow">}</span>
                 </code>
             </pre>
 
@@ -340,10 +343,11 @@
             </p>
 
             <pre>
+                <hr>
                 <code>
-                    if (x = y) {
-                        /* statements here */
-                    }
+    <span class="pink">if</span> <span class="darkYellow">(</span><span class="blue">x <span>=</span> y</span><span class="darkYellow">)</span> <span class="darkYellow">{</span>
+        <span class="gray">/* statements here */</span>
+    <span class="darkYellow">}</span>
                 </code>
             </pre>
 
@@ -352,10 +356,11 @@
             </p>
 
             <pre>
+                <hr>
                 <code>
-                    if ((x = y)) {
-                         /* statements here */ 
-                        }
+    <span class="pink">if</span> <span class="darkYellow">(</span><span class="pink">(</span><span class="blue">x <span>=</span> y</span><span class="pink">)</span><span class="darkYellow">)</span> <span class="darkYellow">{</span>
+        <span class="gray">/* statements here */</span>
+    <span class="darkYellow">}</span>
                 </code>
             </pre>
 
@@ -369,8 +374,9 @@
             </p>
 
             <pre>
+                <hr>
                 <code>
-                    while (condition) statement
+    <span class="pink">while</span> <span class="darkYellow">(<span class="blue">condition</span>)</span> <span class="blue">statement</span>
                 </code>
             </pre>
 
@@ -395,14 +401,15 @@
             </p>
 
             <pre>
+                <hr>
                 <code>
-                    var n = 0; 
-                    var x = 0; 
-                    
-                    while (n < 3) { 
-                        n++; 
-                        x += n; 
-                    }
+    <span class="darkBlue">var</span> <span class="blue">n</span> = <span class="green">0</span>;
+    <span class="darkBlue">var</span> <span class="blue">x</span> = <span class="green">0</span>;
+    
+    <span class="pink">while</span> <span class="darkYellow">(<span class="blue">n <span><</span> 3</span>) {</span>
+        <span class="blue">n</span>++;
+        <span class="blue">x</span> += <span class="blue">n</span>;
+    <span class="darkYellow">}</span>
                 </code>
             </pre>
 
@@ -440,10 +447,11 @@
             </p>
 
             <pre>
+                <hr>
                 <code>
-                    function square(number) { 
-                        return number * number; 
-                    }
+    <span class="darkBlue">function</span> <span class="yellow">square</span><span class="darkYellow">(<span class="blue">nummber</span>) {</span>
+        <span class="pink">return</span> <span class="blue">number</span> * <span class="blue">number</span>;
+    <span class="darkYellow">}</span>
                 </code>
             </pre>
 
@@ -452,8 +460,9 @@
             </p>
 
             <pre>
+                <hr>
                 <code>
-                    return number * number;
+    <span class="pink">return</span> <span class="blue">number</span> * <span class="blue">number</span>;
                 </code>
             </pre>
 
