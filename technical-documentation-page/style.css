@@ -130,12 +130,6 @@ hr{
     border: 1px solid gray;
 }
 
-.special{
-    background-color: #232323;
-    font-family: monospace;
-    padding: 0 2%;
-}
-
 .blue{
     color: rgb(140, 213, 238);
 }
@@ -170,4 +164,16 @@ hr{
 
 .cyan{
     color: rgb(127, 237, 237);
+}
+
+table{
+    border: 1px solid #858585;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td, table th {
+    border: 1px solid #858585;
+    padding: .5rem .75rem;
+    vertical-align: middle;
 }
