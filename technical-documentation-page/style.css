@@ -35,6 +35,7 @@ nav{
 
 ::-webkit-scrollbar-track {
     background-color: #333;
+    border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -54,11 +55,19 @@ nav header{
 
 nav li {
     list-style-type: none;
-    width: 1000%;
-    padding: 5%;
-    border-left: 3px solid gray;
-    line-height: 1px;
-    margin-bottom: 7%;
+    padding: 4%;
+    border-left: 5px solid gray;
+    line-height: 4px;
+    margin-bottom: 8%;
+}
+
+nav li:hover{
+    background-color: #5e5d5d;
+    color: #333;
+}
+
+nav li:hover a{
+    color: #bab9b9;
 }
 
 nav a{
@@ -77,7 +86,7 @@ main header::before{
 }
 
 main header{
-    font-size: 40px;
+    font-size: 37px;
     font-weight: bold;
     text-decoration: underline;
 }
@@ -90,6 +99,7 @@ main section{
 main p, main li {
     margin: 2% 0;
     font-weight: 200;
+    font-size: 15px;
 }
 
 main ul, main ol{
@@ -113,15 +123,15 @@ hr{
 }
 
 .blue{
-    color: lightblue;
+    color: rgb(140, 213, 238);
 }
 
 .darkBlue{
-    color: rgb(141, 141, 242);
+    color: rgb(109, 109, 244);
 }
 
 .yellow{
-    color: lightyellow;
+    color: rgb(216, 216, 76);
 }
 
 .darkYellow{
@@ -133,11 +143,11 @@ hr{
 }
 
 .pink{
-    color: palevioletred;
+    color: rgb(240, 21, 94);
 }
 
 .green{
-    color: lightgreen;
+    color: rgb(110, 233, 110);
 }
 
 .gray{
@@ -145,5 +155,5 @@ hr{
 }
 
 .cyan{
-    color: aqua;
+    color: rgb(127, 237, 237);
 }
