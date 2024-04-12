@@ -57,12 +57,13 @@
             </p>
 
             <pre>
+                <hr>
                 <code>
-    function greetMe(yourName) {
-        alert("Hello" + yourName);
-    }
+    <span class="darkBlue">function</span> <span class="yellow">greetMe</span><span class="darkYellow">(</span><span class="blue">yourName</span><span class="darkYellow">)</span> <span class="darkYellow">{</span>
+        <span class="yellow">alert</span><span class="pink">(</span><span class="orange">"Hello"</span> + <span class="blue">yourName</span><span class="pink">)</span>;
+    <span class="darkYellow">}</span>
 
-    greetMe("World");
+    <span class="yellow">greetMe</span><span class="darkYellow">(</span><span class="orange">"World"</span><span class="darkYellow">)</span>;
                 </code>
             </pre>
 
@@ -99,8 +100,9 @@
             </p>
 
             <pre>
+                <hr>
                 <code>
-                    var x = 42;
+    <span class="darkBlue">var</span> <span class="blue">x</span> = <span class="green">42</span>;
                 </code>
             </pre>
             
@@ -114,8 +116,9 @@
             </p>
 
             <pre>
+                <hr>
                 <code>
-                    x = 42;
+    <span class="blue">x</span> = <span class="green">42</span>;
                 </code>
             </pre>
            
@@ -129,8 +132,9 @@
             </p>
 
             <pre>
+                <hr>
                 <code>
-                    let y = 13;
+    <span class="darkBlue">let</span> <span class="blue">y</span> = <span class="green">13</span>;
                 </code>
             </pre>
             
@@ -153,12 +157,13 @@
             </p>
 
             <pre>
+                <hr>
                 <code>
-                    if (true) { 
-                        var x = 5;
-                    } 
-                    
-                    console.log(x); // 5
+    <span class="pink">if</span> <span class="darkYellow">(</span><span class="darkBlue">true</span><span class="darkYellow">)</span> <span class="darkYellow">{</span>
+        <span class="darkBlue">var</span> <span class="blue">x</span> = <span class="green">5</span>;
+    <span class="darkYellow">}</span>
+
+    <span class="blue">console</span>.<span class="yellow">log</span><span class="darkYellow">(</span><span class="blue">x</span><span class="darkYellow">)</span>;<span class="gray"> // 5</span>
                 </code>
             </pre>
 
@@ -167,12 +172,13 @@
             </p>
 
             <pre>
+                <hr>
                 <code>
-                    if (true) { 
-                        let y = 5; 
-                    } 
-                    
-                    console.log(y); // ReferenceError: y is not defined
+    <span class="pink">if</span> <span class="darkYellow">(</span><span class="darkBlue">true</span><span class="darkYellow">)</span> <span class="darkYellow">{</span>
+        <span class="darkBlue">let</span> <span class="blue">y</span> = <span class="green">5</span>;
+    <span class="darkYellow">}</span>
+                
+    <span class="blue">console</span>.<span class="yellow">log</span><span class="darkYellow">(</span><span class="blue">y</span><span class="darkYellow">)</span>;<span class="gray"> // ReferenceError: y is not defined</span>
                 </code>
             </pre>
 
@@ -199,8 +205,9 @@
             </p>
 
             <pre>
+                <hr>
                 <code>
-                    const PI = 3.14;
+    <span class="darkBlue">const</span> <span class="blue">PI</span> = <span class="green">3.14</span>;
                 </code>
             </pre>
 
@@ -217,18 +224,17 @@
             </p>
 
             <pre>
+                <hr>
                 <code>
-                    // THIS WILL CAUSE AN ERROR 
-                    
-                    function f() {}; 
+    <span class="gray">// this will cause an error</span>
+    <span class="darkBlue">function</span> f<span class="darkYellow">() {}</span>;
+    <span class="darkBlue">const</span> <span class="blue">f</span> = <span class="green">5</span>;
 
-                    const f = 5; 
-                    
-                    // THIS WILL CAUSE AN ERROR ALSO 
-                    
-                    function f() { 
-                        const g = 5; var g;
-                    }
+    <span class="gray">// this will cause an error also</span>
+    <span class="darkBlue">function</span> f<span class="darkYellow">() {</span>
+        <span class="darkBlue">const</span> <span class="blue">g</span> = <span class="green">5</span>;
+        <span class="darkBlue">var</span> <span class="blue">g</span>;
+    <span class="darkYellow">}</span>
                 </code>
             </pre>
 
@@ -237,9 +243,13 @@
             </p>
 
             <pre>
+                <hr>
                 <code>
-                    const MY_OBJECT = {"key": "value"}; 
-                    MY_OBJECT.key = "otherValue";
+    <span class="darkBlue">const</span> <span class="cyan">MY_OBJECT</span> = <span class="darkYellow">{</span>
+        <span class="orange">"key"</span> : <span class="orange">"value"</span>  
+    <span class="darkYellow">}</span>;
+
+    <span class="cyan">MY_OBJECT</span>.<span class="blue">key</span> = <span class="orange">"otherValue"</span>;
                 </code>
             </pre>
 
