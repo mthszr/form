@@ -133,7 +133,7 @@
             </pre>
 
             <p>
-                To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:
+                Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!
             </p>
         </section>
         
@@ -145,12 +145,17 @@
             </p>
 
             <p>
-                A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); subsequent characters can also be digits (0-9). Because JavaScript is case sensitive, letters include the characters "A" through "Z" (uppercase) and the characters "a" through "z" (lowercase).
+                A JavaScript identifier must start with a letter, underscore (<code class="special">_</code>), or dollar sign (<code class="special">$</code>); subsequent characters can also be digits (<code class="special">0</code>-<code class="special">9</code>). Because JavaScript is case sensitive, letters include the characters <code class="special">A</code> through <code class="special">Z</code> (uppercase) and the characters <code class="special">a</code> through <code class="special">z</code> (lowercase).
             </p>
 
             <p>
-                You can use ISO 8859-1 or Unicode letters such as å and ü in identifiers. You can also use the Unicode escape sequences as characters in identifiers. Some examples of legal names are Number_hits, temp99, and _name. 
+                You can use ISO 8859-1 or Unicode letters such as å and ü in identifiers. You can also use the Unicode escape sequences as characters in identifiers.
             </p>
+
+            <p>
+                Some examples of legal names are <code class="special">Number_hits</code>, <code class="special">temp99</code>, <code class="special">$credit</code> and <code class="special">_name</code>.
+            </p>
+
         </section>
 
         <section class="main-section" id="declaring_variables">
@@ -161,7 +166,7 @@
             </p>
 
             <p>
-                With the keyword var. For example,
+                With the keyword <code class="special">var</code>. For example:
             </p>
 
             <pre>
@@ -193,7 +198,7 @@
             </p>
 
             <p>
-                With the keyword let. For example,
+                With the keyword <code class="special">const</code> or <code class="special">let</code>. For example: 
             </p>
 
             <pre>
@@ -205,7 +210,7 @@
             
 
             <p>
-                This syntax can be used to declare a block scope local variable. See Variable scope below.
+                This syntax can be used to declare a block scope local variable.
             </p>
 
         </section>
@@ -253,7 +258,7 @@
             <header>Global Variables</header>
 
             <p>
-                Global variables are in fact properties of the global object. In web pages the global object is window, so you can set and access global variables using the window.variable syntax.
+                Global variables are in fact properties of the global object. In web pages the global object is <code class="special">window</code>, so you can set and access global variables using the <code class="special">window.variable</code> syntax.
             </p>
 
             <p>
@@ -266,7 +271,7 @@
             <header>Constants</header>
 
             <p>
-                You can create a read-only, named constant with the const keyword. The syntax of a constant identifier is the same as for a variable identifier: it must start with a letter, underscore or dollar sign and can contain alphabetic, numeric, or underscore characters.
+                You can create a read-only, named constant with the <code class="special">const</code> keyword. The syntax of a constant identifier is the same as for a variable identifier: it must start with a letter, underscore or dollar sign and can contain alphabetic, numeric, or underscore characters.
             </p>
 
             <pre>
@@ -281,7 +286,7 @@
             </p>
 
             <p>
-                The scope rules for constants are the same as those for let block scope variables. If the const keyword is omitted, the identifier is assumed to represent a variable.
+                The scope rules for constants are the same as those for <code class="special">let</code> block scope variables. If the const keyword is omitted, the identifier is assumed to represent a variable.
             </p>
 
             <p>
@@ -304,7 +309,7 @@
             </pre>
 
             <p>
-                However, object attributes are not protected, so the following statement is executed without problems.
+                However, <code class="special">const</code> only prevents re-assignments, but doesn't prevent mutations. The properties of objects assigned to constants are not protected, so the following statement is executed without problems.
             </p>
 
             <pre>
@@ -330,18 +335,18 @@
             <ul>
                 <li>Six data types that are primitives:</li>
                 <ol>
-                    <li>Boolean. true and false.</li>
-                    <li>null. A special keyword denoting a null value. Because JavaScript is case-sensitive, null is not the same as Null, NULL, or any other variant.</li>
-                    <li>undefined. A top-level property whose value is undefined.</li>
-                    <li>Number. 42 or 3.1459</li>
-                    <li>String."Howdy"</li>
-                    <li>Symbol (new in ECMAScript 2015). A data type whose instances are unique and immutable.</li>
+                    <li> <strong>Boolean.</strong> <code class="special">true</code> and <code class="special">false</code>.</li>
+                    <li><strong>null.</strong> A special keyword denoting a null value. Because JavaScript is case-sensitive, <code class="special">null</code> is not the same as <code class="special">Null</code>, <code class="special">NULL</code>, or any other variant.</li>
+                    <li><strong>undefined</strong> A top-level property whose value is undefined.</li>
+                    <li><strong>Number.</strong> <code class="special">42</code> or <code class="special">3.1459</code></li>
+                    <li><strong>String.</strong> A sequence of characters that represent a text value. For example: <code class="special">"Howdy"</code>.</li>
+                    <li><strong>Symbol </strong>(new in ECMAScript 2015). A data type whose instances are unique and immutable.</li>
                 </ol>
-                <li>and Object</li>
+                <li>and <strong>Object</strong></li>
             </ul>
 
             <p>
-                Although these data types are a relatively small amount, they enable you to perform useful functions with your applications. Objects and functions are the other fundamental elements in the language. You can think of objects as named containers for values, and functions as procedures that your application can perform.
+                Although these data types are a relatively small amount, they enable you to perform useful functions with your applications. <code class="special">objects</code> and <code class="special">functions</code> are the other fundamental elements in the language. You can think of objects as named containers for values, and functions as procedures that your application can perform.
             </p>
         </section>
 
@@ -349,7 +354,11 @@
             <header>If...Else Statement</header>
 
             <p>
-                Use the if statement to execute a statement if a logical condition is true. Use the optional else clause to execute a statement if the condition is false. An if statement looks as follows:
+                Use the <code class="special">if</code> statement to execute a statement if a logical condition is <code class="special">true</code>. Use the optional <code class="special">else</code> clause to execute a statement if the condition is <code class="special">false</code>.
+            </p>
+
+            <p>
+                An if statement looks as follows:
             </p>
 
             <pre>
@@ -364,7 +373,11 @@
             </pre>
 
             <p>
-                condition can be any expression that evaluates to true or false. See Boolean for an explanation of what evaluates to true and false. If condition evaluates to true, statement_1 is executed; otherwise, statement_2 is executed. statement_1 and statement_2 can be any statement, including further nested if statements.
+                Here, the <code class="special">condition</code> can be any expression that evaluates to <code class="special">true</code> or <code class="special">false</code>.
+            </p>
+            
+            <p>
+                If condition evaluates to true, statement_1 is executed; otherwise, statement_2 is executed. statement_1 and statement_2 can be any statement, including further nested if statements.
             </p>
 
             <p>
