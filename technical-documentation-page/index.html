@@ -377,11 +377,11 @@
             </p>
             
             <p>
-                If condition evaluates to true, statement_1 is executed; otherwise, statement_2 is executed. statement_1 and statement_2 can be any statement, including further nested if statements.
+                If <code class="special">condition</code> evaluates to <code class="special">true</code>, <code class="special">statement_1</code> is executed; otherwise, <code class="special">statement_2</code> is executed. <code class="special">statement_1</code> and <code class="special">statement_2</code> can be any statement, including further nested <code class="special">if</code> statements.
             </p>
 
             <p>
-                You may also compound the statements using else if to have multiple conditions tested in sequence, as follows:
+                You may also compound the statements using <code class="special">else if</code> to have multiple conditions tested in sequence, as follows:
             </p>
 
             <pre>
@@ -400,7 +400,7 @@
             </pre>
 
             <p>
-                In the case of multiple conditions only the first logical condition which evaluates to true will be executed. To execute multiple statements, group them within a block statement ({ ... }) . In general, it's good practice to always use block statements, especially when nesting if statements:
+                In the case of multiple conditions only the first logical condition which evaluates to <code class="special">true</code> will be executed. To execute multiple statements, group them within a block statement ({ ... }) . In general, it's good practice to always use block statements, especially when nesting <code class="special">if</code> statements:
             </p>
 
             <pre>
@@ -448,7 +448,7 @@
             <header>While Statement</header>
 
             <p>
-                A while statement executes its statements as long as a specified condition evaluates to true. A while statement looks as follows:
+                A <code class="special">while</code> statement executes its statements as long as a specified condition evaluates to <code class="special">true</code>. A <code class="special">while</code> statement looks as follows:
             </p>
 
             <pre>
@@ -459,11 +459,11 @@
             </pre>
 
             <p>
-                If the condition becomes false, statement within the loop stops executing and control passes to the statement following the loop. 
+                If the <code class="special">condition</code> becomes <code class="special">false</code>, <code class="special">statement</code> within the loop stops executing and control passes to the statement following the loop. 
             </p>
 
             <p>
-                The condition test occurs before statement in the loop is executed. If the condition returns true, statement is executed and the condition is tested again. If the condition returns false, execution stops and control is passed to the statement following while.
+                The condition test occurs before <code class="special">statement</code> in the loop is executed. If the condition returns <code class="special">true</code>, <code class="special">statement</code> is executed and the <code class="special">condition</code> is tested again. If the condition returns <code class="special">false</code>, execution stops and control is passed to the statement following <code class="special">while</code>.
             </p>
 
             <p>
@@ -471,11 +471,11 @@
             </p>
 
             <p>
-                Exemple:
+                Example:
             </p>
 
             <p>
-                The following while loop iterates as long as n is less than three:  
+                The following <code class="special">while</code> loop iterates as long as <code class="special">n</code> is less than <code class="special">3</code>:  
             </p>
 
             <pre>
@@ -492,17 +492,17 @@
             </pre>
 
             <p>
-                With each iteration, the loop increments n and adds that value to x. Therefore, x and n take on the following values:
+                With each iteration, the loop increments <code class="special">n</code> and adds that value to <code class="special">x</code>. Therefore, <code class="special">x</code> and <code class="speial">n</code> take on the following values:
             </p>
 
             <ul>
-                <li>After the first pass: n = 1 and x = 1</li>
-                <li>After the second pass: n = 2 and x = 3</li>
-                <li>After the third pass: n = 3 and x = 6</li>
+                <li>After the first pass: <code class="special">n = 1</code> and <code class="special">x = 1</code></li>
+                <li>After the second pass: <code class="special">n = 2</code> and <code class="special">x = 3</code></li>
+                <li>After the third pass: <code class="special">x = 3</code> and <code class="special">x = 6</code></li>
             </ul>
 
             <p>
-                After completing the third pass, the condition n < 3 is no longer true, so the loop terminates.
+                After completing the third pass, the condition <code class="special">n < 3</code> is no longer <code class="special">true</code>, so the loop terminates.
             </p>
 
         </section>
@@ -511,7 +511,7 @@
             <header>Function Declarations</header>
 
             <p>
-                A function definition (also called a function declaration, or function statement) consists of the function keyword, followed by:
+                A function definition (also called a function declaration, or function statement) consists of the <code class="special">function</code> keyword, followed by:
             </p>
 
             <ul>
@@ -521,7 +521,7 @@
             </ul>
 
             <p>
-                For example, the following code defines a simple function named square:
+                For example, the following code defines a simple function named <code class="special">square</code>:
             </p>
 
             <pre>
@@ -534,7 +534,7 @@
             </pre>
 
             <p>
-                The function square takes one argument, called number. The function consists of one statement that says to return the argument of the function (that is, number) multiplied by itself. The return statement specifies the value returned by the function.
+                The function <code class="special">squre</code> takes one argument, called <code class="special">number</code>. The function consists of one statement that says to return the argument of the function (that is, <code class="special">number</code>) multiplied by itself. The <code class="special">return</code> statement specifies the value returned by the function, wich is <code class="special">number * number</code>.
             </p>
 
             <pre>
@@ -545,7 +545,7 @@
             </pre>
 
             <p>
-                Primitive parameters (such as a number) are passed to functions by value; the value is passed to the function, but if the function changes the value of the parameter, this change is not reflected globally or in the calling function.
+                Primitive parameters (such as a <code class="special">number</code>) are passed to functions by value; the value is passed to the function, but if the function changes the value of the parameter, this change is not reflected globally or in the calling function.
             </p>
 
         </section>
