@@ -300,12 +300,42 @@ video{
 }
 
 .info-right-menu{
+    width: 100%;
     display: flex;
     margin-top: 20%;
 }
 
-.line{
-    width: 40%;
-    border-bottom: 1px solid black;
-    margin: auto 3%;
+.line-container{
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.line-container hr{
+    width: 100%;
+    border: 1px solid black;
+    margin: auto 12%;
+    transform: translateY(-90%);
+}
+
+.number{
+    margin-right: 20%;
+}
+
+.arrows{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    justify-self: flex-end;
+}
+
+.arrow-icon-left, .arrow-icon-right{
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.arrow-icon-right{
+    margin-left: 3%;
 }
