@@ -119,7 +119,7 @@ body{
 .buttons{
     display: flex;
     justify-content: center;
-    margin-top: 7%;
+    margin-top: 5%;
 }
 
 .dot-icon{
@@ -189,9 +189,123 @@ body{
     vertical-align: middle;
 }
 
+.info{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+    font-family: sans-serif;
+}
 
+.info-left, .info-middle, .info-right{
+    boder: 1px solid black;
+}
 
+.info-left{
+    width: 20%;
+    margin: auto 0 auto 4%;
+}
 
+.info-left-title{
+    margin-bottom: 7%;
+    font-size: 42px;
+}
 
+.info-left-description{
+    margin-bottom: 5%;
+}
 
+hr{
+    border: 1px solid black;
+    width: 80%;
+    margin: 0 0 5% 0;
+}
 
+.info-left-buttons-1, .info-left-buttons-2, .info-left-buttons-3{
+    display: flex;
+    margin-bottom: 3%;
+}
+
+.info-left-buttons p{
+    margin-right: 3%;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 14px;
+    padding: 2% 5%;
+}
+
+.info-middle{
+    width: 50%;
+    position: relative;
+}
+
+video{
+    display: none;
+    position: absolute;
+}
+
+.real-video{
+    display: block;
+    image-resolution: 300dpi;
+    z-index: -1;
+}
+
+.video-buttons-top, .video-buttons-bottom{
+    position: absolute;
+    z-index: 1000;
+    margin-bottom: 50%;
+}
+
+.video-buttons-top{
+    display: flex;
+}
+
+.video-button-3{
+    display: flex;
+    white-space: nowrap;
+    border: 1px solid black;
+}
+
+.video-buttons-bottom{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-button{
+    display: flex;
+}
+
+.info-right{
+    width: 20%;
+    margin-right: 4%;
+}
+
+.info-right img{
+    width: 100%;
+}
+
+.info-right-tour{
+    display: flex;
+    margin-top: 20%;
+    justify-content: space-between;
+}
+
+.info-right-tour h1{
+    font-size: 50px;
+    margin: auto;
+}
+
+.info-right-tour p{
+    font-size: 13px;
+    margin: auto;
+}
+
+.info-right-menu{
+    display: flex;
+    margin-top: 20%;
+}
+
+.line{
+    width: 40%;
+    border-bottom: 1px solid black;
+    margin: auto 3%;
+}
