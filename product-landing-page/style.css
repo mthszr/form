@@ -58,7 +58,6 @@ a{
 body{
     display: flex;
     height: 100vh;
-    overfow: hidden;
 }
 
 .main-page{
@@ -196,10 +195,6 @@ body{
     font-family: sans-serif;
 }
 
-.info-left, .info-middle, .info-right{
-    boder: 1px solid black;
-}
-
 .info-left{
     width: 20%;
     margin: auto 0 auto 4%;
@@ -236,6 +231,7 @@ hr{
 .info-middle{
     width: 50%;
     position: relative;
+    margin-bottom: 1%;
 }
 
 video{
