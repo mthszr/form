@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen{
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+} 
+
+body{
+    height: 100%;
+    width: 100vw;
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    top: 0;
+    width: 100vw;
+    background-color: black;
+}
