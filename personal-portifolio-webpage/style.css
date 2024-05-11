@@ -311,20 +311,57 @@ p.title{
     display: flex;
     flex-direction: column;
     width: 86%;
-    margin: 0 auto;
+    margin: 5% auto 0  auto;
+    text-transform: uppercase;
 }
 
 #contact-section-top{
     display: flex;
+    height: 50%;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+#contact-section-top-left{
+    margin-right: 20%;
+}
+
+#contact-section-top-right{
+    display: flex;
     justify-content: space-between;
+    height: 100%;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.contact-section-title{
+    margin-bottom: 20%;
+    font-weight: 500;
+}
+
+#contact-section-bottom{
     height: 50%;
     width: 100%;
 }
 
-#contact-section-bottom{
-    justify-self: flex-end;
-    align-self: flex-end;
-    height: 50%;
+#contact-section-bottom h1{
     width: 100%;
-    margin-top: 10%;
+    font-size: 201px;
+}
+
+#contact-section-bottom hr{
+    height: 1px;
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+    background-color: #1b1b1b;
+}
+
+#contact-section-bottom div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+    font-size: 10px;
+    font-weight: 300;
 }
