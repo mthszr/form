@@ -208,6 +208,7 @@ font-size: 12px;
 }
 
 #projects-section{
+    height: fit-content;
     width: 86%;
     margin: 0 auto;
 }
@@ -256,4 +257,55 @@ p.title{
 
 #project-4{
     background-color: orange;
+}
+
+#how-i-work-section{
+    width: 86%;
+    margin: 500px auto 0 auto;
+    text-transform: uppercase;
+}
+
+#how-i-work-section h1{
+    margin-bottom: 5%;
+    line-height: 43px;
+    font-size: 37px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    white-space: nowrap;
+}
+
+#how-i-work-section hr{
+    height: 1px;
+    width: 86%;
+    margin: 2% auto 2% auto;
+    border: none;
+    background-color: #1b1b1b;
+}
+
+.step{
+    display: flex;
+    flex-direction: row;
+    font-size: 9px;
+    font-weight: 300;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.step p{
+    width: fit-content;
+    height: 10%;
+    margin: 2% auto;
+}
+
+.step p:nth-of-type(1){
+    justify-self: flex-start;
+}
+
+.step p:nth-of-type(2){
+    margin-left: 30%;
+}
+
+.step p:nth-of-type(3){
+    margin-left: 20%;
+    text-align: left;
 }
