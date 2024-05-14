@@ -15,7 +15,7 @@ html{
 }
 
 
-@media screen{
+@media only screen and (max-width: 767px){
     *{
         margin: 0;
         padding: 0;
@@ -233,30 +233,17 @@ p.title{
 
 .project-tile{
     min-height: 500px;
-    transform: scale(0.95);
+    transform: scale(0.90);
+    font-size: 10px;
+    text-transform: uppercase;
 }
 
 .image-container{
     width: 100%;
     height: 90%;
     border-radius: 15px;
-}
-
-#project-1{
-    grid-row-start: 2;
-    background-color: blue;
-}
-
-#project-2{
-    background-color: red;
-}
-
-#project-3{
-    background-color: pink;
-}
-
-#project-4{
-    background-color: orange;
+    border: 1px solid black;
+    background: linear-gradient(45deg, gray, rgb(87, 78, 78));
 }
 
 #how-i-work-section{
